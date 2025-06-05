@@ -15,24 +15,24 @@
 
 - Operaciones CRUD de Vehículos:
 	+ Listar Vehículos
-	<img src="https://github.com/i2512054/Assets2025/blob/main/01_GET_ALL_VEHICLE.png?raw=true" width="400" />
+	<img src="https://github.com/i2512054/Assets2025/blob/main/01_GET_ALL_VEHICLE.png?raw=true" width="400" /><br />
     
     + Crear Vehículo
-    <img src="https://github.com/i2512054/Assets2025/blob/main/02_01_BTN_VEHICLE_CREATE.png?raw=true" width="100" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/02_CREATE_01_VEHICLE.png?raw=true" width="400" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/03_CREATE_02_VEHICLE.png?raw=true" width="400" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/04_CREATE_03_VEHICLE.png?raw=true" width="400" />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/02_01_BTN_VEHICLE_CREATE.png?raw=true" width="100" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/02_CREATE_01_VEHICLE.png?raw=true" width="400" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/03_CREATE_02_VEHICLE.png?raw=true" width="400" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/04_CREATE_03_VEHICLE.png?raw=true" width="400" /><br />
     
     + Actualizar Vehículo
-    <img src="https://github.com/i2512054/Assets2025/blob/main/05_01_BTN_VEHICLE_EDIT.png?raw=true" width="40" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/05_UPDATE_01_VEHICLE.png?raw=true" width="400" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/03_CREATE_02_VEHICLE.png?raw=true" width="400" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/06_UPDATE_02_VEHICLE.png?raw=true" width="400" />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/05_01_BTN_VEHICLE_EDIT.png?raw=true" width="40" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/05_UPDATE_01_VEHICLE.png?raw=true" width="400" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/03_CREATE_02_VEHICLE.png?raw=true" width="400" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/06_UPDATE_02_VEHICLE.png?raw=true" width="400" /><br />
     
     + Eliminar Vehículo
-    <img src="https://github.com/i2512054/Assets2025/blob/main/07_01_BTN_VEHICLE_DELETE.png?raw=true" width="40" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/07_DELETE_01_VEHICLE.png?raw=true" width="400" />
-    <img src="https://github.com/i2512054/Assets2025/blob/main/08_DELETE_02_VEHICLE.png?raw=true" width="400" />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/07_01_BTN_VEHICLE_DELETE.png?raw=true" width="40" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/07_DELETE_01_VEHICLE.png?raw=true" width="400" /><br />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/08_DELETE_02_VEHICLE.png?raw=true" width="400" /><br />
 
 - Para deployar la aplicación a un Localhost, realizar lo siguiente:
 	+ Instalar el servidor XAMPP
@@ -40,13 +40,14 @@
 	+ Luego ejecutar el script en el phpMyAdmin: db_daw_idl2.sql
 	+ Luego copiar y pegar la carpeta IDL2 a htdocs. Ejemplo: C:/XAMPP/htdocs/IDL2
 	+ Modificar los parametros de base de datos en el archivo(C:/XAMPP/htdocs/IDL2/be/app/Config/Database.php)
+    <br />
     <pre>
         public array $default = [
             'DSN'          => '',
-            'hostname'     => 'localhost',
-            'username'     => 'root',
-            'password'     => '',
-            'database'     => 'db_daw_idl2',
+            'hostname'     => 'localhost',//INDICAR EL IP o localhost DE TU PC
+            'username'     => 'root',//INDICAR EL USUARIO de MySQL por defecto es root
+            'password'     => '',//INDICAR EL PASSWORD de MySQL por defecto no tiene contraseña
+            'database'     => 'db_daw_idl2',//INDICAR el nombre de la base de datos, en este caso: db_daw_idl2
             'DBDriver'     => 'MySQLi',
             'DBPrefix'     => '',
             'pConnect'     => false,
@@ -69,7 +70,7 @@
     </pre>
 	+ Luego ir al navegador web y digitar http://IDL2/
     El resultado final, será mostrar el CRUD de Vehículos.
-    <img src="https://github.com/i2512054/Assets2025/blob/main/01_GET_ALL_VEHICLE.png?raw=true" width="400" />
+    <img src="https://github.com/i2512054/Assets2025/blob/main/01_GET_ALL_VEHICLE.png?raw=true" width="400" /><br />
 
 ## Autor
 | [<img src="https://avatars.githubusercontent.com/u/213133340?v=4" width=115><br><sub>José Hugo Saravia Chávez</sub>](https://github.com/i2512054/DAW-IDL1) |

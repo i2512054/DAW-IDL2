@@ -40,6 +40,7 @@
 
 - Para deployar la aplicación a un Localhost, realizar lo siguiente:
 	+ Instalar el servidor XAMPP
+        - Nota Importante: El Framework Codeigniter 4, funciona en versión de PHP 8.2.12 o posterior
 	+ Clonar el repositorio https://github.com/i2512054/DAW-IDL2.git
 	+ Luego ejecutar el script en el phpMyAdmin: db_daw_idl2.sql
 	+ Luego copiar y pegar la carpeta IDL2 a htdocs. Ejemplo: C:/XAMPP/htdocs/IDL2

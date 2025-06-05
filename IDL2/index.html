@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/lib/fontawesome/css/all.css" />
+        <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css" />
+        <script src="assets/lib/jquery/jquery-3.6.0.min.js"></script>
+        <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="shortcut icon" href="assets/img/favicon.png" />
+        <title>CRUD: Vehículos</title>
+        <style>
+            body { background-image: url('./assets/img/fnd.png'); background-size: cover; }
+        </style>
+    </head>
+    <body>
+        <!-- INIT: MODAL MESSAGE -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#message" style="display:none;" id="btAlertMessage"></button>
+        <div class="modal fade" id="message" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="messageLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="messageLabel">Control de Vehículos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col"><p id="pModalMessage">...</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="bt-show-message-success" type="button" class="btn btn-secondary" data-bs-target="" data-bs-dismiss="" data-bs-toggle="modal">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: MODAL MESSAGE -->
+
+        <!-- INIT: MODAL CONFIRM -->
+        <button id="bt-view-status" data-bs-toggle="modal" data-bs-target="#div-modal-view-status" style="display: none;"></button>
+        <div class="modal fade" id="div-modal-view-status" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="div-modal-view-status-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="div-modal-view-status-label">Control de Vehículos</h5>
+                        <button type="button" id="btCRUDClose" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row mt">
+                                <div class="col-md">
+                                    <p>¿Está seguro de eliminar el registro?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg bg-dark bg-gradient text-light" data-bs-dismiss="modal" onclick='onDelete();'><i class="fas fa-check me-2"></i>Si</button>
+                        <button type="button" class="btn btn-lg bg-danger bg-gradient text-light" data-bs-dismiss="modal"><i class="fas fa-xmark me-2"></i>No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: MODAL CONFIRM -->
+
+        <!-- INIT: MODAL CRUD -->
+        <button id="bt-view-crud" data-bs-toggle="modal" data-bs-target="#div-modal-view-crud" style="display: none;"></button>
+        <div class="modal fade" id="div-modal-view-crud" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="div-modal-view-crud-label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="div-modal-view-crud-label">Crear Vehículo</h5>
+                        <button type="button" id="btCRUDClose" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Categoría</label>
+                                    <select id="cbo-category" class="form-select form-select-sm"></select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Marca</label>
+                                    <select id="cbo-brand" class="form-select form-select-sm"></select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label">Color</label>
+                                    <select id="cbo-color" class="form-select form-select-sm"></select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label class="form-label">Año</label>
+                                    <select id="cbo-year" class="form-select form-select-sm"></select>
+                                </div>
+                                <div class="col-md-5">
+                                    <label class="form-label">Combustible</label>
+                                    <select id="cbo-fuel" class="form-select form-select-sm"></select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Placa</label>
+                                    <input type="text" class="form-control form-control-sm" id="txt-plate" value="" />
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Precio</label>
+                                    <input type="number" class="form-control form-control-sm" id="txt-price" value="" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-lg bg-dark bg-gradient text-light me-4" data-bs-dismiss="modal" onclick='onSave();'><i class="fas fa-floppy-disk me-2"></i>Guardar</button>
+                        <button type="button" class="btn btn-lg bg-danger bg-gradient text-light" data-bs-dismiss="modal"><i class="fas fa-xmark me-2"></i>Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: MODAL CRUD -->
+
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col">
+                    <header>
+                        <h1 class="text-light text-center mt-4 mb-5">CONTROL DE VEHÍCULOS</h1>
+                    </header>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col mb-4">
+                    <button type="button" class="btn btn-lg" style="background-color: #6b095b; color: #ffffff;" onclick="onShowCRUD();"><i class="fas fa-plus me-2"></i><b>Crear nuevo vehículo</b></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" id="div-list-body"></div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="assets/js/vehicles.js"></script>

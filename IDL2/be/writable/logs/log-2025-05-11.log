@@ -1,0 +1,1610 @@
+CRITICAL - 2025-05-11 01:14:44 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:14:44 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:14:44 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:14:44 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:14:44 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:19:28 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:19:29 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:19:29 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:19:29 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 01:19:29 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/updateReviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 183.
+ 1 APPPATH/Controllers/ReviewDetails.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 183)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->updateReviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:12:26 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('1', '1746943946000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('1', '1746944239000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746943978000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746943978000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746943978000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746943978000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746943978000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 1, 0, 1746944118000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 1, 0, 1746944118000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 1, 0, 1746944118000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 1, 0, \'1746944118000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 1, 0, 1746944118000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746944125000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746944125000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746944125000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746944125000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746944125000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746944184000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746944184000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746944184000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746944184000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746944184000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '8', 1, 0, 1746944195000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '8', 1, 0, 1746944195000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '8', 1, 0, 1746944195000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 8, 1, 0, \'1746944195000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '8', 1, 0, 1746944195000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '10', 0, 1, 1746944228000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '10', 0, 1, 1746944228000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '10', 0, 1, 1746944228000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 10, 0, 1, \'1746944228000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '10', 0, 1, 1746944228000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 06:17:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '12', 1, 0, 1746944237000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 06:17:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '12', 1, 0, 1746944237000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '12', 1, 0, 1746944237000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 06:17:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 12, 1, 0, \'1746944237000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '12', 1, 0, 1746944237000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('1', '1746988329000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:32:09 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746988315000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:32:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746988315000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746988315000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746988315000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746988315000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:32:09 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746988322000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:32:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746988322000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746988322000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746988322000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746988322000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:32:09 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746988326000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:32:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746988326000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746988326000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:09 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746988326000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746988326000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('2', '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:32:37 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746988349000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:32:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746988349000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746988349000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746988349000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746988349000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:32:37 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746988351000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:32:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746988351000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746988351000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746988351000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746988351000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:32:37 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746988352000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:32:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746988352000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746988352000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:32:37 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746988352000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746988352000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:36:35 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('2', '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:37:41 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Controllers/Quizzes.php on line 47.
+ 1 APPPATH/Controllers/Quizzes.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:38:17 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Controllers/Quizzes.php on line 47.
+ 1 APPPATH/Controllers/Quizzes.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:39:12 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Controllers/Quizzes.php on line 47.
+ 1 APPPATH/Controllers/Quizzes.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:39:40 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Controllers/Quizzes.php on line 47.
+ 1 APPPATH/Controllers/Quizzes.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:40:33 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Controllers/Quizzes.php on line 47.
+ 1 APPPATH/Controllers/Quizzes.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:42:27 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz(2, '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:44:28 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz(2, '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:45:16 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz(2, '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:45:58 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz(2, '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:47:51 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 24.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz(2, '1746988357000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:57:00 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989815000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:57:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989815000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:57:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989815000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:57:00 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989815000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989815000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:57:00 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989816000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:57:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989816000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:57:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989816000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:57:00 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989816000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989816000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:57:00 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746989818000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:57:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746989818000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:57:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746989818000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:57:00 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 3, 0, 1, \'1746989818000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '3', 0, 1, 1746989818000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:01 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746989865000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746989865000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746989865000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:01 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 1, 0, 1, \'1746989865000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '1', 0, 1, 1746989865000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:02 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746989866000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746989866000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746989866000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 2, 0, 1, \'1746989866000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '2', 0, 1, 1746989866000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:02 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746989868000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746989868000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746989868000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 3, 0, 1, \'1746989868000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '3', 0, 1, 1746989868000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:02 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '8', 1, 0, 1746989871000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '8', 1, 0, 1746989871000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '8', 1, 0, 1746989871000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 8, 1, 0, \'1746989871000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '8', 1, 0, 1746989871000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:02 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '9', 0, 1, 1746989873000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '9', 0, 1, 1746989873000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '9', 0, 1, 1746989873000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:02 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(2, 9, 0, 1, \'1746989873000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('2', '9', 0, 1, 1746989873000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:34 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:34 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:34 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989907000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989907000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989907000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:34 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 2, 0, 1, \'1746989907000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '2', 0, 1, 1746989907000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:58:34 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746989909000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:58:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746989909000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746989909000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:58:34 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 4, 0, 1, \'1746989909000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '4', 0, 1, 1746989909000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 18:59:39 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 18:59:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:59:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 18:59:39 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_UpdateQuizDetailByQuizId; expected 7, got 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989906000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(76): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989906000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 19:03:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 19:03:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 19:03:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 19:03:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 19:03:41 --> ErrorException: Undefined property: stdClass::$ended_a
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in APPPATH/Controllers/QuizDetails.php on line 85.
+ 1 APPPATH/Controllers/QuizDetails.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ended_a', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php', 85)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-11 19:05:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-11 19:05:51 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1
+[Method: POST, Route: quizDetails/updateQuizDetailByQuizId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 2 APPPATH/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 19:05:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 3 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 4 APPPATH/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-11 19:05:51 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '. '1746989906000', '1746989906000')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 4 APPPATH/Models/QuizDetailModel.php(33): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuizDetailByQuizId(1, 1, 0, 1, \'1746989905000\'. \'1746989906000\', \'1746989906000\');')
+ 5 APPPATH/Controllers/QuizDetails.php(78): App\Models\QuizDetailModel->updateQuizDetailByQuizId('1', '1', 0, 1, 1746989905000, 1746989906000, 1746989906000)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuizDetails->updateQuizDetailByQuizId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuizDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

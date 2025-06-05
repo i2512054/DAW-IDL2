@@ -1,0 +1,103 @@
+CRITICAL - 2025-05-02 00:34:08 --> ErrorException: copy(): The first argument to copy() function cannot be a directory
+[Method: POST, Route: documents/updateDocument]
+in APPPATH/Controllers/Documents.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(): The first argument to copy() function cannot be a directory', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 181)
+ 2 APPPATH/Controllers/Documents.php(181): copy('/opt/lampp/htdocs/gacetapolicial/fe/res/tmp/video/', '/opt/lampp/htdocs/gacetapolicial/fe/res/video//')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-02 00:47:48 --> ErrorException: copy(/opt/lampp/htdocs/gacetapolicial/fe/res/video//https://www.youtube.com/watch?v=KFoyA8Z8VYc): Failed to open stream: No such file or directory
+[Method: POST, Route: documents/updateDocument]
+in APPPATH/Controllers/Documents.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/opt/lampp/htdocs/gacetapolicial/fe/res/video//https://www.youtube.com/watch?v=KFoyA8Z8VYc): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 181)
+ 2 APPPATH/Controllers/Documents.php(181): copy('/opt/lampp/htdocs/gacetapolicial/fe/res/tmp/video/Garantias_Constitucionales_Que_son_y_para_que_sirven.mp4', '/opt/lampp/htdocs/gacetapolicial/fe/res/video//https://www.youtube.com/watch?v=KFoyA8Z8VYc')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-02 00:49:04 --> ErrorException: copy(/opt/lampp/htdocs/gacetapolicial/fe/res/video//https://www.youtube.com/watch?v=KFoyA8Z8VYc): Failed to open stream: No such file or directory
+[Method: POST, Route: documents/updateDocument]
+in APPPATH/Controllers/Documents.php on line 181.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(/opt/lampp/htdocs/gacetapolicial/fe/res/video//https://www.youtube.com/watch?v=KFoyA8Z8VYc): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 181)
+ 2 APPPATH/Controllers/Documents.php(181): copy('/opt/lampp/htdocs/gacetapolicial/fe/res/tmp/video/Clase_gratuita_sobre_la_constitución_y_los_derechos_fundamentales.mp4', '/opt/lampp/htdocs/gacetapolicial/fe/res/video//https://www.youtube.com/watch?v=KFoyA8Z8VYc')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-02 05:59:42 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: users/6]
+in APPPATH/Controllers/Users.php on line 147.
+ 1 APPPATH/Controllers/Users.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Users.php', 147)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->delete('6')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-02 06:01:07 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: users/7]
+in APPPATH/Controllers/Users.php on line 147.
+ 1 APPPATH/Controllers/Users.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Users.php', 147)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->delete('7')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-02 15:36:15 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppList...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppList...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppList...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppList...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-02 15:36:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+[Method: POST, Route: profiles/listByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 2 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-02 15:36:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 3 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-02 15:36:15 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppListByRoleId();', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 5 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

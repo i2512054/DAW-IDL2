@@ -1,0 +1,463 @@
+CRITICAL - 2025-04-29 03:50:21 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('4', '1745898621000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 09:25:35 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppList...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppList...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppList...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppList...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 09:25:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+[Method: POST, Route: profiles/listByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 2 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 09:25:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 3 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 09:25:35 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppListByRoleId();', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 5 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 19:23:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPR...', '<h1 class='h1-a...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 19:23:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+[Method: POST, Route: questions/updateQuestion]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:23:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:23:39 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 5 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 19:29:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPR...', '<h1 class='h1-a...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 19:29:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+[Method: POST, Route: questions/updateQuestion]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:29:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:29:09 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 5 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 19:30:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPR...', '<h1 class='h1-a...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 19:30:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+[Method: POST, Route: questions/updateQuestion]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:30:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:30:00 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 5 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 19:32:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPR...', '<h1 class='h1-a...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 19:32:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+[Method: POST, Route: questions/updateQuestion]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:32:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:32:25 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 5 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:34:18 --> Error: Call to undefined function App\Controllers\encode_utf8()
+[Method: POST, Route: questions/updateQuestion]
+in APPPATH/Controllers/Questions.php on line 144.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:34:39 --> Error: Call to undefined function App\Controllers\decode_utf8()
+[Method: POST, Route: questions/updateQuestion]
+in APPPATH/Controllers/Questions.php on line 144.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 19:38:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPR...', '<h1 class='h1-a...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 19:38:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+[Method: POST, Route: questions/updateQuestion]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:38:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:38:00 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1>
+<b class='b-argument'>Articulo 1....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 5 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1>
+<b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-29 19:38:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1><b class='b-argument'>Articulo 1.-<...' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQ...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQ...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQ...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQ...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPR...', '<h1 class='h1-a...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-29 19:38:55 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1><b class='b-argument'>Articulo 1.-<...' at line 1
+[Method: POST, Route: questions/updateQuestion]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:38:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1><b class='b-argument'>Articulo 1.-<...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 19:38:55 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'h1-argument'>Hablar con Gokú y Bills</h1><b class='b-argument'>Articulo 1.-<...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 4 APPPATH/Models/QuestionCustomModel.php(32): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateQuestion(10, 2, \'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR\', \'<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\');')
+ 5 APPPATH/Controllers/Questions.php(147): App\Models\QuestionCustomModel->updateQuestion(10, 2, 'EL FIN DEL SUPREMO KAIO SAMA y KAIO SAMA DEL SUR', '<h1 class=\'h1-argument\'>Hablar con Gokú y Bills</h1><b class=\'b-argument\'>Articulo 1.-</b> <p class=\'p-argument\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->updateQuestion()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 21:12:14 --> ErrorException: Undefined variable $argument
+[Method: POST, Route: questionOptions/updateQuestionOption]
+in APPPATH/Controllers/QuestionOptions.php on line 135.
+ 1 APPPATH/Controllers/QuestionOptions.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $argument', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/QuestionOptions.php', 135)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\QuestionOptions->updateQuestionOption()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuestionOptions))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

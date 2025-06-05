@@ -1,0 +1,428 @@
+CRITICAL - 2025-06-05 07:34:24 --> Error: Class "App\Models\VehicleModel" not found
+[Method: GET, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 07:35:27 --> Error: Class "App\Models\VehicleModel" not found
+[Method: GET, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 10:49:26 --> mysqli_sql_exception: Unknown column 'categories.resources' in 'field list' in /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicle...', 0)
+#1 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicle...')
+#2 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicle...')
+#3 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicle...', Array, false)
+#4 /opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+#6 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+#7 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/ic/daw/IDL2/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-05 10:49:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+[Method: GET, Route: vehicles]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 2 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:49:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 4 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:49:26 --> [Caused by] mysqli_sql_exception: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 5 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 10:50:07 --> mysqli_sql_exception: Unknown column 'categories.resources' in 'field list' in /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicle...', 0)
+#1 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicle...')
+#2 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicle...')
+#3 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicle...', Array, false)
+#4 /opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+#6 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+#7 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/ic/daw/IDL2/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-05 10:50:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+[Method: GET, Route: vehicles]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 2 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:50:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 4 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:50:07 --> [Caused by] mysqli_sql_exception: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 5 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 10:50:10 --> mysqli_sql_exception: Unknown column 'categories.resources' in 'field list' in /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicle...', 0)
+#1 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicle...')
+#2 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicle...')
+#3 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicle...', Array, false)
+#4 /opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+#6 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+#7 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/ic/daw/IDL2/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-05 10:50:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+[Method: GET, Route: vehicles]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 2 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:50:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 4 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:50:10 --> [Caused by] mysqli_sql_exception: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 5 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-05 10:51:39 --> mysqli_sql_exception: Unknown column 'categories.resources' in 'field list' in /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicle...', 0)
+#1 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicle...')
+#2 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicle...')
+#3 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicle...', Array, false)
+#4 /opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+#6 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+#7 /opt/lampp/htdocs/ic/daw/IDL2/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/ic/daw/IDL2/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/ic/daw/IDL2/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-05 10:51:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+[Method: GET, Route: vehicles]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 2 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:51:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 4 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 10:51:39 --> [Caused by] mysqli_sql_exception: Unknown column 'categories.resources' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `vehicles`.`id`, `vehicles`.`category_id`, `categories`.`name` AS `categoryName`, `categories`.`resources` AS `categoryResource`, `vehicles`.`brand_id`, `brands`.`name` AS `brandName`, `vehicles`.`color_id`, `colors`.`name` AS `colorName`, `vehicles`.`fuel_id`, `fuels`.`name` AS `fuelName`, `vehicles`.`plate`, `vehicles`.`year`, `vehicles`.`price`, `vehicles`.`ind_status`, `vehicles`.`created_at`, `vehicles`.`updated_at`
+FROM `vehicles`
+JOIN `categories` ON `categories`.`id` = `vehicles`.`category_id`
+JOIN `brands` ON `brands`.`id` = `vehicles`.`brand_id`
+JOIN `colors` ON `colors`.`id` = `vehicles`.`color_id`
+JOIN `fuels` ON `fuels`.`id` = `vehicles`.`fuel_id`', [], false)
+ 5 APPPATH/Controllers/Vehicles.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->index()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:35:47 --> ErrorException: Undefined property: stdClass::$year
+[Method: POST, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 57.
+ 1 APPPATH/Controllers/Vehicles.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year', '/opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:36:34 --> ErrorException: Undefined property: stdClass::$year
+[Method: POST, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 57.
+ 1 APPPATH/Controllers/Vehicles.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year', '/opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:43:09 --> ErrorException: Undefined property: stdClass::$year
+[Method: POST, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 57.
+ 1 APPPATH/Controllers/Vehicles.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year', '/opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:43:37 --> ErrorException: Undefined property: stdClass::$year
+[Method: POST, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 57.
+ 1 APPPATH/Controllers/Vehicles.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year', '/opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-05 11:44:17 --> ErrorException: Undefined property: stdClass::$year
+[Method: POST, Route: vehicles]
+in APPPATH/Controllers/Vehicles.php on line 57.
+ 1 APPPATH/Controllers/Vehicles.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year', '/opt/lampp/htdocs/ic/daw/IDL2/be/app/Controllers/Vehicles.php', 57)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Vehicles->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehicles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

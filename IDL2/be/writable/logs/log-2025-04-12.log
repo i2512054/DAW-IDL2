@@ -1,0 +1,267 @@
+CRITICAL - 2025-04-12 00:00:21 --> ErrorException: Undefined property: stdClass::$trie_at
+[Method: POST, Route: reviews]
+in APPPATH/Controllers/Reviews.php on line 50.
+ 1 APPPATH/Controllers/Reviews.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$trie_at', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Reviews.php', 50)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reviews->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reviews))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 00:04:14 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: reviews/2]
+in APPPATH/Controllers/Reviews.php on line 105.
+ 1 APPPATH/Controllers/Reviews.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Reviews.php', 105)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Reviews->delete('2')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reviews))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 01:34:55 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails]
+in APPPATH/Controllers/ReviewDetails.php on line 48.
+ 1 APPPATH/Controllers/ReviewDetails.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 48)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 01:34:55 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails]
+in APPPATH/Controllers/ReviewDetails.php on line 48.
+ 1 APPPATH/Controllers/ReviewDetails.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 48)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 01:34:55 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails]
+in APPPATH/Controllers/ReviewDetails.php on line 48.
+ 1 APPPATH/Controllers/ReviewDetails.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 48)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 01:34:55 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails]
+in APPPATH/Controllers/ReviewDetails.php on line 48.
+ 1 APPPATH/Controllers/ReviewDetails.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 48)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-12 02:12:21 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_gaceta_policial' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('localhost', 'usr_desarrollo', Object(SensitiveParameterValue), 'db_gaceta_polic...', 3306, '', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Models/UserCustomModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Users.php(165): App\Models\UserCustomModel->signIn('jsaravia.soport...', '111111')
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Users->signIn()
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_gaceta_policial' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/UserCustomModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Users.php(165): App\Models\UserCustomModel->signIn('jsaravia.soport...', '111111')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Users->signIn()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-12 02:12:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_gaceta_policial'
+[Method: POST, Route: users/signin]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `access` = :access:', [...], false)
+ 3 APPPATH/Models/UserCustomModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Users.php(165): App\Models\UserCustomModel->signIn('jsaravia.soporte.ti@gmail.com', '111111')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-12 02:12:29 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_gaceta_policial' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('localhost', 'usr_desarrollo', Object(SensitiveParameterValue), 'db_gaceta_polic...', 3306, '', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Models/UserCustomModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Users.php(165): App\Models\UserCustomModel->signIn('jsaravia.soport...', '111111')
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Users->signIn()
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_gaceta_policial' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/UserCustomModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Users.php(165): App\Models\UserCustomModel->signIn('jsaravia.soport...', '111111')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Users->signIn()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-12 02:12:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_gaceta_policial'
+[Method: POST, Route: users/signin]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `access` = :access:', [...], false)
+ 3 APPPATH/Models/UserCustomModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Users.php(165): App\Models\UserCustomModel->signIn('jsaravia.soporte.ti@gmail.com', '111111')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->signIn()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 02:38:02 --> Error: Class "App\Controllers\DocumentModel" not found
+[Method: POST, Route: documents]
+in APPPATH/Controllers/Documents.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->create()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 02:38:46 --> ErrorException: Attempt to read property "category_id" on null
+[Method: POST, Route: documents]
+in APPPATH/Controllers/Documents.php on line 45.
+ 1 APPPATH/Controllers/Documents.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 45)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 02:39:50 --> ErrorException: Attempt to read property "category_id" on null
+[Method: POST, Route: documents]
+in APPPATH/Controllers/Documents.php on line 45.
+ 1 APPPATH/Controllers/Documents.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "category_id" on null', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 45)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 02:53:04 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: documents/2]
+in APPPATH/Controllers/Documents.php on line 94.
+ 1 APPPATH/Controllers/Documents.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 94)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->delete('2')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 03:07:48 --> ErrorException: Undefined property: stdClass::$name
+[Method: POST, Route: documents]
+in APPPATH/Controllers/Documents.php on line 48.
+ 1 APPPATH/Controllers/Documents.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 48)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:03:12 --> ErrorException: Undefined variable $nivel
+[Method: POST, Route: apps/list]
+in APPPATH/Controllers/Apps.php on line 15.
+ 1 APPPATH/Controllers/Apps.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nivel', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Apps.php', 15)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Apps->list()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:32:11 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Config/Routes.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:33:11 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Config/Routes.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:34:15 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Config/Routes.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:34:40 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Config/Routes.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:35:17 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Config/Routes.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-12 23:36:14 --> ParseError: syntax error, unexpected end of file
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Config/Routes.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

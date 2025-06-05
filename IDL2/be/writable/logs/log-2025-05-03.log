@@ -1,0 +1,1048 @@
+ERROR - 2025-05-03 03:36:11 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppList...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppList...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppList...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppList...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 03:36:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+[Method: POST, Route: profiles/listByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 2 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 03:36:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 3 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 03:36:11 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppListByRoleId();', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 5 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 03:36:14 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppList...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppList...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppList...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppList...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 03:36:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+[Method: POST, Route: profiles/listByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 2 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 03:36:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 3 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 03:36:14 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppListByRoleId();', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 5 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 03:36:19 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppList...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppList...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppList...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppList...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 03:36:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+[Method: POST, Route: profiles/listByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 2 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 03:36:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 3 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 03:36:19 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppListByRoleId();', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 5 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:06:46 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:06:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:06:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:06:46 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:09:00 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:09:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:09:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:09:00 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:12:21 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:12:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:12:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:12:21 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:14:03 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:14:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:14:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:14:03 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 4 APPPATH/Models/ProfileModel.php(19): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3,\'(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:20:21 --> mysqli_sql_exception: Operand should contain 1 column(s) in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT (1,8),(1...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (1,8),(1...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (1,8),(1...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT (1,8),(1...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:20:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:20:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:20:21 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 4 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT (1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:25:37 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:25:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:25:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:25:37 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:26:45 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:26:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:26:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:26:45 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:30:47 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:30:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:30:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:30:47 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:33:40 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:33:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:33:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:33:40 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:36:47 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO pro...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:36:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:36:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:36:47 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:37:30 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO pro...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:37:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:37:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:37:30 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:37:35 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO pro...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:37:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:37:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:37:35 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9)')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:42:30 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO pro...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:42:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:42:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:42:30 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES(1,8),(1,9);')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 15:43:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\(1,8\),\(1,9\)' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO pro...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 15:43:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\(1,8\),\(1,9\)' at line 1
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:43:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\(1,8\),\(1,9\)' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 3 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:43:28 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\(1,8\),\(1,9\)' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 4 APPPATH/Models/ProfileModel.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO profiles(role_id, app_id) VALUES\\(1,8\\),\\(1,9\\);')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:54:51 --> ArgumentCountError: Too few arguments to function App\Controllers\Profiles::deleteProfileByRoleId(), 0 passed in /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: profiles/deleteProfileByRoleId]
+in APPPATH/Controllers/Profiles.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->deleteProfileByRoleId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:58:42 --> ArgumentCountError: Too few arguments to function App\Controllers\Profiles::deleteProfileByRoleId(), 0 passed in /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: profiles/deleteProfileByRoleId]
+in APPPATH/Controllers/Profiles.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->deleteProfileByRoleId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:59:10 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Models/ProfileModel.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProfileModel')
+ 3 APPPATH/Controllers/Profiles.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProfileModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 15:59:41 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Models/ProfileModel.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProfileModel')
+ 3 APPPATH/Controllers/Profiles.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProfileModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:00:15 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Models/ProfileModel.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProfileModel')
+ 3 APPPATH/Controllers/Profiles.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProfileModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:00:29 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Models/ProfileModel.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProfileModel')
+ 3 APPPATH/Controllers/Profiles.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProfileModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:02:20 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Models/ProfileModel.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProfileModel')
+ 3 APPPATH/Controllers/Profiles.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProfileModel')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 16:04:13 --> mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY' in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateP...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateP...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateP...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateP...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 16:04:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:04:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 3 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:04:13 --> [Caused by] mysqli_sql_exception: Duplicate entry '1-8' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 4 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateProfile(3, \'(1,8),(1,9)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(1,8),(1,9),(1,10),(1,11),(1,14),(1,15),(1,16),(1,4),(1,5),(1,17),(1,2),(1,12),(1,13),(1,7),(1,3),(1,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-03 16:08:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sp_UpdateProfile(3, '(3,8),(3,9)')' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('sp_UpdateProfil...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('sp_UpdateProfil...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('sp_UpdateProfil...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('sp_UpdateProfil...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(3,8),(3,9),(3,...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-03 16:08:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sp_UpdateProfile(3, '(3,8),(3,9)')' at line 1
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 2 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(3,8),(3,9),(3,10),(3,11),(3,14),(3,15),(3,16),(3,4),(3,5),(3,17),(3,2),(3,12),(3,13),(3,7),(3,3),(3,6)')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:08:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sp_UpdateProfile(3, '(3,8),(3,9)')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 3 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 4 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(3,8),(3,9),(3,10),(3,11),(3,14),(3,15),(3,16),(3,4),(3,5),(3,17),(3,2),(3,12),(3,13),(3,7),(3,3),(3,6)')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:08:24 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'sp_UpdateProfile(3, '(3,8),(3,9)')' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('sp_UpdateProfile(3, \'(3,8),(3,9)\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 4 APPPATH/Models/ProfileModel.php(20): CodeIgniter\Database\BaseConnection->query('sp_UpdateProfile(3, \'(3,8),(3,9)\');')
+ 5 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, '(3,8),(3,9),(3,10),(3,11),(3,14),(3,15),(3,16),(3,4),(3,5),(3,17),(3,2),(3,12),(3,13),(3,7),(3,3),(3,6)')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:09:59 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: profiles/updateProfileByRoleId]
+in APPPATH/Models/ProfileModel.php on line 20.
+ 1 APPPATH/Controllers/Profiles.php(34): App\Models\ProfileModel->updateProfileByRoleId(3, 8)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->updateProfileByRoleId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-03 16:38:15 --> ErrorException: Undefined property: stdClass::$role_id
+[Method: POST, Route: profiles/listByRoleId]
+in APPPATH/Controllers/Profiles.php on line 13.
+ 1 APPPATH/Controllers/Profiles.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$role_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

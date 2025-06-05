@@ -1,0 +1,11 @@
+CRITICAL - 2025-04-13 00:00:06 --> ErrorException: Undefined variable $id
+[Method: GET, Route: profiles/listById/1]
+in APPPATH/Config/Routes.php on line 26.
+ 1 APPPATH/Config/Routes.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/opt/lampp/htdocs/gacetapolicial/be/app/Config/Routes.php', 26)
+ 2 SYSTEMPATH/Router/RouteCollection.php(340): require('/opt/lampp/htdocs/gacetapolicial/be/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

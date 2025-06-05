@@ -1,0 +1,595 @@
+CRITICAL - 2025-04-09 03:49:06 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: users]
+in APPPATH/Config/Routes.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 05:05:34 --> ErrorException: Undefined property: stdClass::$email
+[Method: PUT, Route: users/updateProfile/5]
+in APPPATH/Controllers/Users.php on line 80.
+ 1 APPPATH/Controllers/Users.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', '/opt/lampp/htdocs/exampol/be/app/Controllers/Users.php', 80)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->update('updateProfile', '5')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 05:24:14 --> ErrorException: Undefined variable $code
+[Method: POST, Route: users/updateProfile]
+in APPPATH/Controllers/Users.php on line 139.
+ 1 APPPATH/Controllers/Users.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Users.php', 139)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->updateProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 05:26:02 --> ErrorException: Undefined variable $code
+[Method: POST, Route: users/updateProfile]
+in APPPATH/Controllers/Users.php on line 139.
+ 1 APPPATH/Controllers/Users.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Users.php', 139)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->updateProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 05:26:41 --> ErrorException: Undefined variable $code
+[Method: POST, Route: users/updateProfile]
+in APPPATH/Controllers/Users.php on line 139.
+ 1 APPPATH/Controllers/Users.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Users.php', 139)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Users->updateProfile()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 05:37:07 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: POST, Route: users/updateProfile]
+in APPPATH/Controllers/Users.php on line 134.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Users.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Users')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Users')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Users', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:14:38 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: categories/listByNivel]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:14:52 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:14:58 --> ParseError: syntax error, unexpected variable "$result"
+[Method: POST, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:15:03 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:15:51 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:16:03 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:16:06 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:16:13 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:16:34 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:16:52 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:16:56 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories/1]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:17:00 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 95.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:18:18 --> ParseError: syntax error, unexpected variable "$result"
+[Method: GET, Route: categories]
+in APPPATH/Controllers/Categories.php on line 94.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Categories')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Categories')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\Categories', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:19:03 --> ErrorException: Undefined property: stdClass::$category_id
+[Method: POST, Route: categories]
+in APPPATH/Controllers/Categories.php on line 46.
+ 1 APPPATH/Controllers/Categories.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_id', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:19:16 --> ErrorException: Undefined property: stdClass::$category_id
+[Method: POST, Route: categories]
+in APPPATH/Controllers/Categories.php on line 46.
+ 1 APPPATH/Controllers/Categories.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_id', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:22:01 --> ErrorException: Undefined property: stdClass::$category_id
+[Method: POST, Route: categories]
+in APPPATH/Controllers/Categories.php on line 46.
+ 1 APPPATH/Controllers/Categories.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_id', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:24:04 --> ErrorException: Undefined property: stdClass::$category_id
+[Method: POST, Route: categories]
+in APPPATH/Controllers/Categories.php on line 46.
+ 1 APPPATH/Controllers/Categories.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$category_id', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 46)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:24:15 --> ErrorException: Undefined variable $code
+[Method: POST, Route: categories/listByNivel]
+in APPPATH/Controllers/Categories.php on line 124.
+ 1 APPPATH/Controllers/Categories.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 124)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->listByNivel()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:25:35 --> ErrorException: Undefined variable $code
+[Method: POST, Route: categories/listByNivel]
+in APPPATH/Controllers/Categories.php on line 124.
+ 1 APPPATH/Controllers/Categories.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 124)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->listByNivel()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:26:13 --> ErrorException: Undefined variable $code
+[Method: POST, Route: categories/listByNivel]
+in APPPATH/Controllers/Categories.php on line 124.
+ 1 APPPATH/Controllers/Categories.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 124)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->listByNivel()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:28:29 --> ErrorException: Undefined variable $code
+[Method: POST, Route: categories/listByNivel]
+in APPPATH/Controllers/Categories.php on line 124.
+ 1 APPPATH/Controllers/Categories.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 124)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->listByNivel()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 07:29:15 --> ErrorException: Undefined variable $code
+[Method: POST, Route: categories/listByNivel]
+in APPPATH/Controllers/Categories.php on line 124.
+ 1 APPPATH/Controllers/Categories.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Categories.php', 124)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->listByNivel()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-09 16:48:39 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /opt/lampp/htdocs/exampol/be/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /opt/lampp/htdocs/exampol/be/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/exampol/be/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/exampol/be/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php(52): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(933): App\Controllers\Questions->create()
+#9 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#10 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/exampol/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/exampol/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/exampol/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-04-09 16:48:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+[Method: POST, Route: questions]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:48:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (\'3\', \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:39\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (\'3\', \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:39\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:48:39 --> [Caused by] mysqli_sql_exception: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (\'3\', \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:39\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (\'3\', \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:39\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (\'3\', \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:39\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-09 16:48:52 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /opt/lampp/htdocs/exampol/be/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /opt/lampp/htdocs/exampol/be/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/exampol/be/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/exampol/be/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php(52): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(933): App\Controllers\Questions->create()
+#9 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#10 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/exampol/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/exampol/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/exampol/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-04-09 16:48:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+[Method: POST, Route: questions]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:48:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:52\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:52\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:48:52 --> [Caused by] mysqli_sql_exception: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:52\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:52\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:48:52\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-09 16:49:56 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /opt/lampp/htdocs/exampol/be/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /opt/lampp/htdocs/exampol/be/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/exampol/be/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/exampol/be/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php(52): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(933): App\Controllers\Questions->create()
+#9 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#10 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/exampol/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/exampol/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/exampol/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-04-09 16:49:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+[Method: POST, Route: questions]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:49:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'Goku\', 1, \'2025-04-09 16:49:56\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'Goku\', 1, \'2025-04-09 16:49:56\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:49:56 --> [Caused by] mysqli_sql_exception: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'Goku\', 1, \'2025-04-09 16:49:56\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'Goku\', 1, \'2025-04-09 16:49:56\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'Goku\', 1, \'2025-04-09 16:49:56\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-09 16:53:11 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/exampol/be/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `qu...', 0)
+#1 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `qu...')
+#2 /opt/lampp/htdocs/exampol/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `qu...')
+#3 /opt/lampp/htdocs/exampol/be/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `qu...', Array, false)
+#4 /opt/lampp/htdocs/exampol/be/system/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/exampol/be/system/BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/exampol/be/system/Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php(52): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(933): App\Controllers\Questions->create()
+#9 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+#10 /opt/lampp/htdocs/exampol/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/exampol/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 /opt/lampp/htdocs/exampol/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 /opt/lampp/htdocs/exampol/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-04-09 16:53:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+[Method: POST, Route: questions]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 2 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:53:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:53:11\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:53:11\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 4 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 16:53:11 --> [Caused by] mysqli_sql_exception: Unknown column 'create_at' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:53:11\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:53:11\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (3, \'EL FIN DEL SUPREMO KAIO SAMA\', \'<h1 class=\\\'h1-argument\\\'>Hablar con Gokú</h1>\\r\\n<b class=\\\'b-argument\\\'>Articulo 1.-</b> <p class=\\\'p-argument\\\'>La defensa de la persona humana y el respeto de su dignidad son el fin supremo de la sociedad y del Estado.</p>\', 1, \'2025-04-09 16:53:11\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `questions` (`category_id`, `name`, `argument`, `status`, `create_at`) VALUES (:category_id:, :name:, :argument:, :status:, :create_at:)', [...], false)
+ 5 SYSTEMPATH/Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Questions.php(52): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->create()
+10 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+11 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 17:04:28 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: questions/5]
+in APPPATH/Controllers/Questions.php on line 93.
+ 1 APPPATH/Controllers/Questions.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php', 93)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->delete('5')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 17:07:38 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: questions/5]
+in APPPATH/Controllers/Questions.php on line 93.
+ 1 APPPATH/Controllers/Questions.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php', 93)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->delete('5')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 17:07:57 --> ErrorException: Undefined variable $code
+[Method: DELETE, Route: questions/5]
+in APPPATH/Controllers/Questions.php on line 88.
+ 1 APPPATH/Controllers/Questions.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php', 88)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->delete('5')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-09 17:09:21 --> ErrorException: Undefined array key 0
+[Method: DELETE, Route: questions/5]
+in APPPATH/Controllers/Questions.php on line 93.
+ 1 APPPATH/Controllers/Questions.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', '/opt/lampp/htdocs/exampol/be/app/Controllers/Questions.php', 93)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Questions->delete('5')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Questions))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

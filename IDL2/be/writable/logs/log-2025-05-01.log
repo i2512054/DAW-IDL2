@@ -1,0 +1,280 @@
+ERROR - 2025-05-01 16:32:29 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppList...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppList...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppList...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppList...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-01 16:32:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+[Method: POST, Route: profiles/listByRoleId]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 2 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 16:32:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 3 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 16:32:29 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_AppListByRoleId; expected 1, got 0
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_AppListByRoleId();', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_AppListByRoleId();')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_AppListByRoleId();')
+ 4 APPPATH/Models/ProfileModel.php(14): CodeIgniter\Database\BaseConnection->query('CALL sp_AppListByRoleId();')
+ 5 APPPATH/Controllers/Profiles.php(16): App\Models\ProfileModel->listByRoleId('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Profiles->listByRoleId()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profiles))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 18:01:40 --> ErrorException: Undefined property: stdClass::$img
+[Method: POST, Route: documents]
+in APPPATH/Controllers/Documents.php on line 49.
+ 1 APPPATH/Controllers/Documents.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$img', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 49)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 18:04:43 --> ErrorException: Undefined property: stdClass::$img
+[Method: POST, Route: documents]
+in APPPATH/Controllers/Documents.php on line 49.
+ 1 APPPATH/Controllers/Documents.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$img', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 49)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->create()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-01 22:57:18 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_Documen...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_Documen...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_Documen...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_Documen...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS C...', 'critters4.jpg', 'Que_son_los_Cri...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-01 22:57:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+[Method: POST, Route: documents/updateDocument]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 22:57:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 22:57:18 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 5 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-01 23:03:45 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_Documen...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_Documen...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_Documen...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_Documen...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS C...', 'critters4.jpg', 'Que_son_los_Cri...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-01 23:03:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+[Method: POST, Route: documents/updateDocument]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:03:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:03:45 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 5 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIO DEL UNIVERSO 7', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-01 23:04:45 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_Documen...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_Documen...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_Documen...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_Documen...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS C...', 'critters4.jpg', 'Que_son_los_Cri...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-01 23:04:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+[Method: POST, Route: documents/updateDocument]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:04:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:04:45 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 5 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqweqwe', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-01 23:11:39 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_Documen...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_Documen...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_Documen...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_Documen...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS C...', 'critters4.jpg', 'Que_son_los_Cri...')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-01 23:11:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+[Method: POST, Route: documents/updateDocument]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:11:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:11:39 --> [Caused by] mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bd_gaceta_policial.sp_DocumentListAll; expected 1, got 6
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 4 APPPATH/Models/DocumentCustomModel.php(31): CodeIgniter\Database\BaseConnection->query('CALL sp_DocumentListAll(9, 2, \'D\', \'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe\', \'critters4.jpg\', \'Que_son_los_Critters.pdf\');')
+ 5 APPPATH/Controllers/Documents.php(185): App\Models\DocumentCustomModel->updateDocument(9, '2', 'D', 'CRITTERS: LAS CRIATURAS DEL ESPACIOqweqwe', 'critters4.jpg', 'Que_son_los_Critters.pdf')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-01 23:13:25 --> ErrorException: Undefined variable $code
+[Method: POST, Route: documents/updateDocument]
+in APPPATH/Controllers/Documents.php on line 191.
+ 1 APPPATH/Controllers/Documents.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $code', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Documents.php', 191)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Documents->updateDocument()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Documents))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

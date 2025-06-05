@@ -1,0 +1,20 @@
+CRITICAL - 2025-04-28 01:07:15 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('1', '1745802435000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 04:59:23 --> Error: Call to a member function getResult() on bool
+[Method: POST, Route: quizzes/updateQuiz]
+in APPPATH/Models/QuizModel.php on line 23.
+ 1 APPPATH/Controllers/Quizzes.php(45): App\Models\QuizModel->updateQuiz('2', '1745816363000')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->updateQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

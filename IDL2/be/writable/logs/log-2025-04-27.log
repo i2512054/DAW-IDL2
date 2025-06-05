@@ -1,0 +1,117 @@
+CRITICAL - 2025-04-27 00:27:26 --> ErrorException: Undefined property: stdClass::$end_at
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 19.
+ 1 APPPATH/Controllers/ReviewAll.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$end_at', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewAll->createReviewAll()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewAll))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 00:27:50 --> ErrorException: Undefined property: stdClass::$end_at
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 19.
+ 1 APPPATH/Controllers/ReviewAll.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$end_at', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewAll->createReviewAll()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewAll))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 02:42:25 --> Error: Class "App\Controllers\ReviewAllDetailCustomModel" not found
+[Method: POST, Route: reviewAllDetails/reviewAllDetailByReviewAllId]
+in APPPATH/Controllers/ReviewAllDetail.php on line 34.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewAllDetail->reviewAllDetailByReviewAllId()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewAllDetail))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 03:21:27 --> ParseError: syntax error, unexpected token ":", expecting "]"
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 24.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ReviewAll')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ReviewAll')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\ReviewAll', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 03:21:43 --> ParseError: syntax error, unexpected token ":", expecting "]"
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 24.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ReviewAll')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ReviewAll')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\ReviewAll', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 03:22:52 --> ParseError: syntax error, unexpected token ":", expecting "]"
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 24.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ReviewAll')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ReviewAll')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\ReviewAll', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 03:23:11 --> ParseError: syntax error, unexpected token ":", expecting "]"
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 24.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ReviewAll')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ReviewAll')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\ReviewAll', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 03:23:46 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: reviewAll/createReviewAll]
+in APPPATH/Controllers/ReviewAll.php on line 24.
+ 1 APPPATH/Controllers/ReviewAll.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAll.php', 24)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewAll->createReviewAll()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewAll))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 08:12:41 --> ErrorException: Undefined variable $reviewId
+[Method: POST, Route: reviewAllDetails/reviewAllDetailByReviewAllIdNo]
+in APPPATH/Controllers/ReviewAllDetail.php on line 54.
+ 1 APPPATH/Controllers/ReviewAllDetail.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reviewId', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewAllDetail.php', 54)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewAllDetail->reviewAllDetailByReviewAllIdNo()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewAllDetail))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 23:47:34 --> ErrorException: Undefined property: stdClass::$started_at
+[Method: POST, Route: quizzes/createQuiz]
+in APPPATH/Controllers/Quizzes.php on line 18.
+ 1 APPPATH/Controllers/Quizzes.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$started_at', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->createQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-27 23:58:46 --> ErrorException: Undefined property: stdClass::$started_at
+[Method: POST, Route: quizzes/createQuiz]
+in APPPATH/Controllers/Quizzes.php on line 18.
+ 1 APPPATH/Controllers/Quizzes.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$started_at', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Quizzes.php', 18)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Quizzes->createQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Quizzes))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

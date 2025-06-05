@@ -1,0 +1,150 @@
+CRITICAL - 2025-05-10 05:48:54 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/reviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 145.
+ 1 APPPATH/Controllers/ReviewDetails.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 145)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 05:49:15 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/reviewDetailByReviewId]
+in APPPATH/Controllers/ReviewDetails.php on line 145.
+ 1 APPPATH/Controllers/ReviewDetails.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 145)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewId()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 18:45:20 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/reviewDetailByReviewIdNo]
+in APPPATH/Controllers/ReviewDetails.php on line 164.
+ 1 APPPATH/Controllers/ReviewDetails.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 164)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 18:48:58 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/reviewDetailByReviewIdNo]
+in APPPATH/Controllers/ReviewDetails.php on line 164.
+ 1 APPPATH/Controllers/ReviewDetails.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 164)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 18:49:41 --> ErrorException: Undefined property: stdClass::$review_id
+[Method: POST, Route: reviewDetails/reviewDetailByReviewIdNo]
+in APPPATH/Controllers/ReviewDetails.php on line 164.
+ 1 APPPATH/Controllers/ReviewDetails.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$review_id', '/opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php', 164)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-10 19:09:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_ReviewD...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_ReviewD...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_ReviewD...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewD...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-10 19:09:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1
+[Method: POST, Route: reviewDetails/reviewDetailByReviewIdNo]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 2 APPPATH/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 19:09:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 3 APPPATH/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 4 APPPATH/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 19:09:06 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_ReviewDetailByReviewIdNo(1);', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 4 APPPATH/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 5 APPPATH/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-10 19:09:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_ReviewD...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_ReviewD...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_ReviewD...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewD...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-10 19:09:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1
+[Method: POST, Route: reviewDetails/reviewDetailByReviewIdNo]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 2 APPPATH/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 19:09:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 3 APPPATH/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 4 APPPATH/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-10 19:09:11 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ALL SELECT 	RD.id, RD.review_id, RD.question_id, Q.name AS question_name, 	Q....' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_ReviewDetailByReviewIdNo(1);', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 4 APPPATH/Models/ReviewDetailCustomModel.php(28): CodeIgniter\Database\BaseConnection->query('CALL sp_ReviewDetailByReviewIdNo(1);')
+ 5 APPPATH/Controllers/ReviewDetails.php(167): App\Models\ReviewDetailCustomModel->reviewDetailByReviewIdNo('1')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ReviewDetails->reviewDetailByReviewIdNo()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReviewDetails))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,349 @@
+CRITICAL - 2025-05-08 18:15:07 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: PUT, Route: categories/32]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 18:18:08 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: PUT, Route: categories/32]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 18:19:30 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: PUT, Route: categories/32]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:46:49 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: PUT, Route: categories/32]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:49:10 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: PUT, Route: categories/updateCategory]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:49:30 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: PUT, Route: categories/updateCategory]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:51:38 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: POST, Route: categories/updateCategory]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:51:52 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: POST, Route: categories/updateCategory]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:52:50 --> ErrorException: Declaration of App\Models\CategoryCustomModel::update($id, $categoryId, $nivel, $name, $description, $img) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: POST, Route: categories/updateCategory]
+in APPPATH/Models/CategoryCustomModel.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-05-08 19:55:41 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/BaseModel.php on line 1833.
+ 1 SYSTEMPATH/BaseModel.php(1833): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/BaseModel.php(997): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH/Model.php(865): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH/Controllers/Categories.php(166): CodeIgniter\Model->update(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-08 19:56:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateC...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateC...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateC...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateC...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, NULL, 0, 'EXAMEN SHINNIN ...', 'EXAMENES SHUNNI...', '')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-08 19:56:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 2 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 19:56:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 3 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 4 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 19:56:17 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 4 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 5 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-08 20:00:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateC...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateC...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateC...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateC...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, NULL, 0, 'EXAMEN SHINNIN ...', 'EXAMENES SHUNNI...', '')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-08 20:00:42 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 2 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:00:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 3 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 4 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:00:42 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 4 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 5 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-08 20:05:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateC...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateC...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateC...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateC...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, NULL, 0, 'EXAMEN SHINNIN ...', 'EXAMENES SHUNNI...', '')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-08 20:05:47 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 2 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:05:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 3 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 4 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:05:47 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024'...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 4 APPPATH/Models/CategoryCustomModel.php(36): CodeIgniter\Database\BaseConnection->query('CALL sp_UpdateCategory(32, , 0, \'EXAMEN SHINNIN 2024\', \'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024\', \'\');')
+ 5 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-08 20:13:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT  AS cate...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS cate...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS cate...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS cate...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, NULL, 0, 'EXAMEN SHINNIN ...', 'EXAMENES SHUNNI...', '')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-08 20:13:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 2 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:13:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS categoryId;')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS categoryId;')
+ 3 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 4 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:13:22 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT  AS categoryId;', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS categoryId;')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS categoryId;')
+ 4 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 5 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, null, 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-08 20:14:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT  AS cate...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS cate...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS cate...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS cate...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN ...', 'EXAMENES SHUNNI...', '')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-08 20:14:41 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 2 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:14:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS categoryId;')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS categoryId;')
+ 3 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 4 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:14:41 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT  AS categoryId;', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS categoryId;')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS categoryId;')
+ 4 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 5 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-08 20:15:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1 in /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /opt/lampp/htdocs/gacetapolicial/be/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT  AS cate...', 0)
+#1 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS cate...')
+#2 /opt/lampp/htdocs/gacetapolicial/be/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS cate...')
+#3 /opt/lampp/htdocs/gacetapolicial/be/app/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS cate...')
+#4 /opt/lampp/htdocs/gacetapolicial/be/app/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN ...', 'EXAMENES SHUNNI...', '')
+#5 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+#6 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+#7 /opt/lampp/htdocs/gacetapolicial/be/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/gacetapolicial/be/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /opt/lampp/htdocs/gacetapolicial/be/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-08 20:15:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+[Method: POST, Route: categories/updateCategory]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 2 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:15:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS categoryId;')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS categoryId;')
+ 3 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 4 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-08 20:15:01 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS categoryId' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT  AS categoryId;', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  AS categoryId;')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  AS categoryId;')
+ 4 APPPATH/Models/CategoryCustomModel.php(38): CodeIgniter\Database\BaseConnection->query('SELECT  AS categoryId;')
+ 5 APPPATH/Controllers/Categories.php(166): App\Models\CategoryCustomModel->updateCategory(32, '', 0, 'EXAMEN SHINNIN 2024', 'EXAMENES SHUNNIN PARA CONVERTIRSE EN NINJAS 2024', '')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Categories->updateCategory()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categories))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

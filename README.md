@@ -7,8 +7,8 @@
         - Se creo 5 Models(CategoryModel, BrandModel, ColorModel, FuelModel y VehicleModel) en /IDL2/be/app/Models/
         - Se creo 5 Controllers(Categories, Brands, Colors, Fuels y Vehicles) en /IDL2/be/app/Controllers/
         - Se agregaron 5 routes para categories, brands, colors, fuels y vehicles en el archivo /IDL2/be/app/Config/Routes.php
-	+ Para crear el frontend(HTML), se uso Bootstrap, Fontawesome y jQuery.
-        - Se creo un archivo JavaScript (/IDL2/assets/js/vehicles.js): 
+	+ Para crear el frontend(HTML5, CSS3 y JavaScript), se uso Bootstrap, Fontawesome y jQuery.
+        - Se creo un archivo JavaScript (/IDL2/assets/js/vehicles.js) que contiene lo siguiente: 
             + Se crearon métodos asíncronos para consumir las APIs de categories, brands, colors, fuels y vehicles.
             + Se crearon métodos para construir dinámicamente los contenidos web de acuerdo a los resultados de las APIs.
             + Se crearon Modales para mostrar mensajes, confirmación y formulario para el CRUD.
@@ -73,7 +73,7 @@
             ],
         ];
     </pre>
-	+ Luego ir al navegador web y digitar http://IDL2/
+	+ Luego ir al navegador web y digitar http://localhost/IDL2/
     El resultado final, será mostrar el CRUD de Vehículos.
     <img src="https://github.com/i2512054/Assets2025/blob/main/01_GET_ALL_VEHICLE.png?raw=true" width="400" /><br />
 

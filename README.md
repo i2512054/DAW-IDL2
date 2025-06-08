@@ -49,10 +49,10 @@
     <pre>
         public array $default = [
             'DSN'          => '',
-            'hostname'     => 'localhost',//INDICAR EL IP o localhost DE TU PC
-            'username'     => 'root',//INDICAR EL USUARIO de MySQL por defecto es root
-            'password'     => '',//INDICAR EL PASSWORD de MySQL por defecto no tiene contraseña
-            'database'     => 'db_daw_idl2',//INDICAR el nombre de la base de datos, en este caso: db_daw_idl2
+            'hostname'     => 'localhost', //INDICAR EL IP o localhost DE TU PC
+            'username'     => 'root', //INDICAR EL USUARIO de MySQL por defecto es root
+            'password'     => '', //INDICAR EL PASSWORD de MySQL por defecto no tiene contraseña
+            'database'     => 'db_daw_idl2', //INDICAR el nombre de la base de datos, en este caso: db_daw_idl2
             'DBDriver'     => 'MySQLi',
             'DBPrefix'     => '',
             'pConnect'     => false,
